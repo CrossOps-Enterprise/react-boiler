@@ -11,7 +11,7 @@ function getApiHost () {
 
   if (!apiHostFromLocalStorage && !apiHostFromURL) {
     // Production api url here
-    return 'http://localhost:1337'
+    return 'https://jsonplaceholder.typicode.com'
   }
 
   if (apiHostFromURL) {

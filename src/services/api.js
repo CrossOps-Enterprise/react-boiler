@@ -1,6 +1,10 @@
 import axios from '../lib/axios'
 
-export const getUserData = async () => {
-  const { data } = await axios.get('/endpoint')
+const endpoints = {
+  getPost: '/posts/1'
+}
+
+export const getPost = async () => {
+  const { data } = await axios.get(endpoints.getPost)
   return data
 }
