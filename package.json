@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -16,8 +17,6 @@
     "react-query": "^3.13.0",
     "react-redux": "^7.2.2",
     "react-scripts": "4.0.3",
-    "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0",
     "storybook": "^6.1.21",
     "styled-components": "^5.2.1",
     "styled-media-query": "^2.1.2",
